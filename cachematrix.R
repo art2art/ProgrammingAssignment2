@@ -3,9 +3,9 @@
 ## out of the cache.
 
 ## @makeCacheMatrix - creates an `object' with setters and getters of an original
-## matrix and an inversed matrix, which is in fact a list containing functions to
-## set the value of the original matrix, set the value of the inversed matrix,
-## get the value of the original matrix, get the value of the inversed matrix.
+## matrix and an inverse matrix, which is in fact a list containing functions to
+## set the value of the original matrix, set the value of the inverse matrix,
+## get the value of the original matrix, get the value of the inverse matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
     inverse <- NULL
